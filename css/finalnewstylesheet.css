@@ -1,0 +1,47 @@
+html {
+    background-color: cornsilk;
+    font-size: 20px;
+}
+img {
+    margin-left: 240px;
+}
+ol {
+    display: list-item;
+    list-style-position: inside;
+}
+/* The ordered list items were not displaying numbers. I had to look this up, and found the code above to correct the issue.  Why isn't my ordered list numbered?  after the display attribute, the numbers were all the way to the left off the page, so I had to add position inside to fix that */
+li {
+    display: list-item;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+a {
+    color: maroon;
+    text-decoration: none;
+}
+a:visited {color: firebrick}
+a:hover{font-style: italic}
+.styleforfontcolor {color: darkseagreen}
+.styleforfontfamily {font-family: fantasy}
+.mystyle {
+    font-size: 18pt;
+    font-family: monospace;
+    font-style: oblique;
+    color: cornflowerblue;
+}
+.div1 {
+  border: 2px outset darkblue;
+  background-color: antiquewhite;    
+  text-align: center;
+}
+.div2 {
+    transform: translate(50%);
+    margin: 15px;
+}
+.footerdev3 {
+    font-size: 8pt;
+    text-align: center;
+    padding: 15px;
+    background-color: darkgrey;
+    color: aliceblue;
+}
